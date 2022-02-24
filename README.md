@@ -95,6 +95,8 @@ Pages:
     sets the reviews state. The reviews are displayed at the bottom of the DrinkView page with a
     timestamp that is formatted by a moment.js function. The name of the user is also displayed by
     referencing the userInfo object from userContext.
+9.  Find My Booze allows a local user (New Orleans) to 
+    see where ten the best liquor stores are located and redirects to google maps on click of "Directions". It utilizes the react-google-map api, mapping through data. (Look into Google maps Geocode for converting location data into coordinates for markers, As it stands, it maps through location data specifically for new orleans, this can be changed.)
 
 Client-Side Helper Functions:
 Client side helper functions are contained within the /client/utils folder:
